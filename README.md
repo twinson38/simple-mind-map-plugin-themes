@@ -101,3 +101,72 @@ themes.esm.min.js
 # 主题列表
 
 所有可用主题可以从[暗色主题列表](./src/dark/index.js)和[亮色主题列表](./src/light/index.js)两个文件中查看。
+
+# 通过CDN的方式使用
+
+## UMD格式
+
+如果你是通过`UMD`格式使用的`simple-mind-map`，比如：
+
+```html
+<link rel="stylesheet" href="https://unpkg.com/simple-mind-map@0.13.1/dist/simpleMindMap.esm.css"/>
+<script src="https://unpkg.com/simple-mind-map@0.13.1/dist/simpleMindMap.umd.min.js"></script>
+```
+
+那么可以引入仓库里`dist/themes.iife.min.js`文件使用：
+
+```html
+<!--复制到你项目中引用-->
+<script src="/themes.iife.min.js"></script>
+<!--或用在线cdn-->
+<script src="https://unpkg.com/simple-mind-map-plugin-themes@1.0.1/dist/themes.iife.min.js"></script>
+<!--实例化-->
+<script>
+    window.simpleMindMapPluginThemes.default.init(window.simpleMindMap.default);
+    new window.simpleMindMap.default({
+        el: document.querySelector('#app'),
+        theme: "classic7",
+        data: {
+            data: {
+                text: "根节点",
+            },
+            children: [],
+        },
+    });
+</script>
+```
+
+## ESM格式
+
+如果你是通过`ESM`格式使用的`simple-mind-map`，比如：
+
+```html
+<link rel="stylesheet" href="https://unpkg.com/simple-mind-map@0.13.1/dist/simpleMindMap.esm.css"/>
+<script src="https://unpkg.com/simple-mind-map@0.13.1/dist/simpleMindMap.esm.js" type="module"></script>
+```
+
+那么可以引入仓库里`dist/themes.esm.min.js`文件使用：
+
+```html
+<!--复制到你项目中引用-->
+<script src="/themes.esm.min.js" type="module"></script>
+<!--或用在线cdn-->
+<script src="https://unpkg.com/simple-mind-map-plugin-themes@1.0.1/dist/themes.esm.min.js" type="module"></script>
+<!--实例化-->
+<script type="module">
+    import MindMap from "simple-mind-map";
+    import Themes from "simple-mind-map-plugin-themes";
+
+    Themes.init(MindMap);
+    new MindMap({
+        el: document.querySelector('#app2'),
+        theme: "classic7",
+        data: {
+            data: {
+            text: "根节点",
+            },
+            children: [],
+        },
+    });
+</script>
+```

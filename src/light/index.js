@@ -43,42 +43,42 @@ import classic15 from './classic15'
 
 export default [
   {
-    name: '天清绿',
+    name: '天清綠',
     value: 'skyGreen',
     theme: skyGreen
   },
   {
-    name: '经典绿',
+    name: '經典綠',
     value: 'classicGreen',
     theme: classicGreen
   },
   {
-    name: '经典蓝',
+    name: '經典藍',
     value: 'classicBlue',
     theme: classicBlue
   },
   {
-    name: '天空蓝',
+    name: '天空藍',
     value: 'blueSky',
     theme: blueSky
   },
   {
-    name: '脑残粉',
+    name: '腦殘粉',
     value: 'brainImpairedPink',
     theme: brainImpairedPink
   },
   {
-    name: '泥土黄',
+    name: '泥土黃',
     value: 'earthYellow',
     theme: earthYellow
   },
   {
-    name: '清新绿',
+    name: '清新綠',
     value: 'freshGreen',
     theme: freshGreen
   },
   {
-    name: '清新红',
+    name: '清新紅',
     value: 'freshRed',
     theme: freshRed
   },
@@ -88,7 +88,7 @@ export default [
     theme: romanticPurple
   },
   {
-    name: '粉红葡萄',
+    name: '粉紅葡萄',
     value: 'pinkGrape',
     theme: pinkGrape
   },
@@ -108,22 +108,22 @@ export default [
     theme: vitalityOrange
   },
   {
-    name: '绿叶',
+    name: '綠葉',
     value: 'greenLeaf',
     theme: greenLeaf
   },
   {
-    name: '小黄人',
+    name: '小黃人',
     value: 'minions',
     theme: minions
   },
   {
-    name: '简约黑',
+    name: '簡約黑',
     value: 'simpleBlack',
     theme: simpleBlack
   },
   {
-    name: '课程绿',
+    name: '課程綠',
     value: 'courseGreen',
     theme: courseGreen
   },
@@ -133,7 +133,7 @@ export default [
     theme: coffee
   },
   {
-    name: '红色精神',
+    name: '紅色精神',
     value: 'redSpirit',
     theme: redSpirit
   },
@@ -148,17 +148,17 @@ export default [
     theme: autumn
   },
   {
-    name: '奥利奥',
+    name: '奧利奧',
     value: 'oreo',
     theme: oreo
   },
   {
-    name: '浅海',
+    name: '淺海',
     value: 'shallowSea',
     theme: shallowSea
   },
   {
-    name: '柠檬气泡',
+    name: '檸檬氣泡',
     value: 'lemonBubbles',
     theme: lemonBubbles
   },
@@ -168,12 +168,12 @@ export default [
     theme: rose
   },
   {
-    name: '海蓝线',
+    name: '海藍線',
     value: 'seaBlueLine',
     theme: seaBlueLine
   },
   {
-    name: '莫兰迪',
+    name: '莫蘭迪',
     value: 'morandi',
     theme: morandi
   },
@@ -183,72 +183,72 @@ export default [
     theme: cactus
   },
   {
-    name: '脑图经典2',
+    name: '心智圖經典2',
     value: 'classic2',
     theme: classic2
   },
   {
-    name: '脑图经典3',
+    name: '心智圖經典3',
     value: 'classic3',
     theme: classic3
   },
   {
-    name: '脑图经典4',
+    name: '心智圖經典4',
     value: 'classic4',
     theme: classic4
   },
   {
-    name: '脑图经典5',
+    name: '心智圖經典5',
     value: 'classic5',
     theme: classic5
   },
   {
-    name: '脑图经典6',
+    name: '心智圖經典6',
     value: 'classic6',
     theme: classic6
   },
   {
-    name: '脑图经典7',
+    name: '心智圖經典7',
     value: 'classic7',
     theme: classic7
   },
   {
-    name: '脑图经典8',
+    name: '心智圖經典8',
     value: 'classic8',
     theme: classic8
   },
   {
-    name: '脑图经典9',
+    name: '心智圖經典9',
     value: 'classic9',
     theme: classic9
   },
   {
-    name: '脑图经典10',
+    name: '心智圖經典10',
     value: 'classic10',
     theme: classic10
   },
   {
-    name: '脑图经典11',
+    name: '心智圖經典11',
     value: 'classic11',
     theme: classic11
   },
   {
-    name: '脑图经典12',
+    name: '心智圖經典12',
     value: 'classic12',
     theme: classic12
   },
   {
-    name: '脑图经典13',
+    name: '心智圖經典13',
     value: 'classic13',
     theme: classic13
   },
   {
-    name: '脑图经典14',
+    name: '心智圖經典14',
     value: 'classic14',
     theme: classic14
   },
   {
-    name: '脑图经典15',
+    name: '心智圖經典15',
     value: 'classic15',
     theme: classic15
   }

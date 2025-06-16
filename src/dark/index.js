@@ -15,7 +15,7 @@ import dark7 from '../dark/dark7'
 
 export default [
   {
-    name: '脑图经典',
+    name: '心智圖經典',
     value: 'classic',
     theme: classic
   },
@@ -25,7 +25,7 @@ export default [
     theme: blackHumour
   },
   {
-    name: '深夜办公室',
+    name: '深夜辦公室',
     value: 'lateNightOffice',
     theme: lateNightOffice
   },
@@ -40,7 +40,7 @@ export default [
     theme: orangeJuice
   },
   {
-    name: '霓虹灯',
+    name: '霓虹燈',
     value: 'neonLamp',
     theme: neonLamp
   },

@@ -63,7 +63,7 @@ export default [
     theme: blueSky
   },
   {
-    name: '腦殘粉',
+    name: '偶像粉',
     value: 'brainImpairedPink',
     theme: brainImpairedPink
   },
